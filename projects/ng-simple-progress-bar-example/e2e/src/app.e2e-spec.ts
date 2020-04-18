@@ -8,9 +8,9 @@ describe('workspace-project App', () => {
         page = new AppPage();
     });
 
-    it('should display welcome message', () => {
+    it('should display title', () => {
         page.navigateTo();
-        expect(page.getTitleText()).toEqual('ng-simple-progress-bar-example app is running!');
+        expect(page.getTitleText()).toEqual('Progress bar demo');
     });
 
     afterEach(async () => {

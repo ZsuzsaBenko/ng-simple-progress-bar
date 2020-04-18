@@ -8,7 +8,6 @@ import {ProgressBarType} from '../../../ng-simple-progress-bar/src/lib/ng-simple
     styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-    title = 'ng-simple-progress-bar-example';
     progressBarTypes: ProgressBarType[];
     progressBarType: ProgressBarType;
     color: string;

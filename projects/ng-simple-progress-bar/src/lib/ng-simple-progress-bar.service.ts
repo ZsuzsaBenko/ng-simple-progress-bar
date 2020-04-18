@@ -46,6 +46,7 @@ export class NgSimpleProgressBarService {
         this.speed = this.COMPLETION_SPEED;
         if (this.subscription) {
             this.subscription.unsubscribe();
+            this.subscription = null;
         }
         this.increasePercent();
     }
