@@ -2,6 +2,8 @@
 
 Angular 9 'ng-simple-progress-bar' is an easy-to-use, customizable component, which can show both dynamic loading and static progress.
 
+NPM package: [https://www.npmjs.com/package/ng-simple-progress-bar](https://www.npmjs.com/package/ng-simple-progress-bar)
+
 ## Installation
 
 `npm install ng-simple-progress-bar --save`
