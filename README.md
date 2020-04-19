@@ -2,15 +2,15 @@
 
 Angular 9 'ng-simple-progress-bar' is an easy-to-use, customizable component, which can show both dynamic loading and static progress.
 
-##Installation
+## Installation
 
 `npm install ng-simple-progress-bar --save`
 
-##Demo app
+## Demo app
 
 An example app is available [here](https://zsuzsabenko.github.io/ng-simple-progress-bar)
 
-##Usage
+## Usage
 
 1. Install the library via npm
 
@@ -101,7 +101,7 @@ An example app is available [here](https://zsuzsabenko.github.io/ng-simple-progr
         ```
     When the above service methods are used, `NgSimpleProgressBarComponent`'s `percentChange` event is emitted to give feedback to the host component about the updated value of the percent.
 
-##Customization
+## Customization
 
 You can set the following properties of the progress bar:
 
@@ -120,7 +120,7 @@ You can set the following properties of the progress bar:
 
 - height: the outer bar's height (defaults: 22px for classic, 12px for rounded, 5px for square)
 
-##NgSimpleProgressBarService methods
+## NgSimpleProgressBarService methods
 
 `NgSimpleProgressBarService` internally uses `interval` from `rxjs`: when we launch the progress, we can set the initial percent from which to start out as well as the 'speed', that is, the number of milliseconds at which rate `interval` emits its next number and our percent is increased by 1.
 Default percent is 0; default speed is 50 milliseconds. Thus the method startProgress() can have 0, 1 or 2 parameters:
