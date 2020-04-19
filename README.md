@@ -134,6 +134,3 @@ The method `resetProgress()` sets the percent to 0; if not stopped, the increase
 
 The method `completeProgress()` speeds up the progress (1 percent increase every 5 milliseconds) and the progress stops at 100%.
 
-## Keywords
-
-angular progress progress-bar loading-bar
